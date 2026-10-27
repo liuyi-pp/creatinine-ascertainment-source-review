@@ -1,0 +1,34 @@
+{
+  "synthetic_only": true,
+  "not_sampled_from_database": true,
+  "cases": [
+    {
+      "database": "mimic",
+      "scenario": "late_saved_reference",
+      "reference": {
+        "draw_hours": 2,
+        "entry_hours": 9,
+        "value": "1.1"
+      },
+      "future": {
+        "draw_hours": 47,
+        "entry_hours": 47,
+        "value": "1.2"
+      }
+    },
+    {
+      "database": "eicu",
+      "scenario": "late_saved_reference",
+      "reference": {
+        "draw_minutes": 120,
+        "revision_minutes": 540,
+        "value": 1.1
+      },
+      "future": {
+        "draw_minutes": 2820,
+        "revision_minutes": 2820,
+        "value": 1.2
+      }
+    }
+  ]
+}
