@@ -1,0 +1,26 @@
+{
+  "title": "Creatinine ascertainment source review companion",
+  "description": "Source inspection subset for paired audits of creatinine ascertainment rules, with wholly invented inputs and documented coverage limitations. It is not an end-to-end clinical reproduction package.",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "creators": [
+    {
+      "name": "Liu, Yi",
+      "affiliation": "The First Affiliated Hospital of Yangtze University"
+    },
+    {
+      "name": "Sun, Qian",
+      "affiliation": "The First Affiliated Hospital of Yangtze University"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "electronic health records",
+    "outcome ascertainment",
+    "data quality",
+    "synthetic tests"
+  ],
+  "language": "eng",
+  "notes": "This source-review subset supports code inspection and synthetic checks. It does not include patient-level records or numerical study results and does not establish independent clinical validation or end-to-end reproduction."
+}

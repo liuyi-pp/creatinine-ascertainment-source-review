@@ -1,0 +1,2 @@
+# Review computational modules and synthetic runner use Python standard library only.
+# No third-party pip packages required for this subset.

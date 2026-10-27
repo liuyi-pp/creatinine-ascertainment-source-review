@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+*.sqlite
+*.db
+*.docx
+*.pdf
+*.csv
+*.xlsx
+*.tiff
+*.zip
+*.log
+data/
+results/
+internal_review/

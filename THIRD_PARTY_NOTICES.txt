@@ -1,0 +1,7 @@
+Third-party and data-use boundaries
+
+The runnable subset uses Python standard-library imports. No Python interpreter or third-party runtime distribution is included in this companion.
+
+Original project code is MIT-licensed based on the confirmed ownership declaration of Yi Liu and Qian Sun. This local statement is not an independent legal determination of every historical source. Any separately licensed third-party material added in the future must retain its own applicable licence and notices.
+
+MIMIC-IV and eICU records and their access rights are not distributed or licensed by this code package. Users must obtain their own required credentials, training and data-use agreements through the official sources before any permitted clinical-data work. This companion contains invented inputs only and grants no clinical-data access or clinical-execution authorization.

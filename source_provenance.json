@@ -1,0 +1,68 @@
+[
+  {
+    "module": "mimic_rules.py",
+    "source_sha256": "410003d0bf45d6e31754f3813b9b67979fdc8e93dbe16a859bab44901c9678f6",
+    "clean_sha256": "caa0d127a7ab92ac3a316f67dbf172f62da331aa66277211fcc8453d086fb151",
+    "retained_functions": [
+      "dt",
+      "num",
+      "mgdl",
+      "normalize_records",
+      "specimen_versions",
+      "collapse_draws"
+    ],
+    "function_AST_unchanged": true
+  },
+  {
+    "module": "eicu_rules.py",
+    "source_sha256": "ad6182b4953e7a6f52078b1c1dbc33395bd0a8c2762d63698c6f3940cb320403",
+    "clean_sha256": "d63ed2f7a32d2f957fbf7f3decb556dc08ec6f67d3ae3fb4cebd8d03780d50e5",
+    "retained_functions": [
+      "norm",
+      "integer",
+      "isadult",
+      "unit_value",
+      "versions_at_draw",
+      "preserve_unordered_draw_groups",
+      "unordered_draw_window"
+    ],
+    "function_AST_unchanged": true
+  },
+  {
+    "module": "mimic_comparison.py",
+    "source_sha256": "8d8e797f70be7cd3fd5d7dda878694cc369bc89c88078701fd364cf90eb49674",
+    "clean_sha256": "6ad9527bb3edecf373bc993cd91efd649255c994a8efe172c2c87d4ce1c6eb6f",
+    "retained_functions": [
+      "reference_selection",
+      "future_selection",
+      "state_for",
+      "strict_record",
+      "comparison_two",
+      "fake_record",
+      "tests",
+      "compact_reference",
+      "value_equal",
+      "reference_transition"
+    ],
+    "function_AST_unchanged": true
+  },
+  {
+    "module": "eicu_comparison.py",
+    "source_sha256": "68f69d18770f656e75ad39819ee556b50d4493d5527a46f60a9661ca2a12678c",
+    "clean_sha256": "682fe34908338a017a426457f8100d19f6538fa2156183c2f8b34d8dffa1455c",
+    "retained_functions": [
+      "grouped",
+      "case_state",
+      "reference_signature",
+      "same_value",
+      "compare_availability",
+      "compare_versions",
+      "requirement_map",
+      "compare_observation",
+      "fixture_row",
+      "fixture_plan",
+      "synthetic_tests"
+    ],
+    "function_AST_unchanged": true
+  }
+]

@@ -1,0 +1,43 @@
+Paper-method to review-code map
+
+Method paragraph numbering below is zero-based internal paragraph indexing, not Word page numbers. No observed result values are included.
+
+M01 | p33–35 | PARTIAL_SCOPE
+Unit/value/time validity and source attribution
+Code: mimic_rules.mgdl/normalize_records; eicu_rules.unit_value; eicu grouped consumes prepared flags
+Limit: Input extraction, cross-unit axis conversion, original-zero flags and attribution are upstream; not reconstructed by the example runner.
+
+M02 | p37–38 | CHECKED_SYNTHETIC
+Early storage deadline; final archived future values; no baseline backfill
+Code: mimic reference_selection/future_selection; eicu grouped/versions_at_draw
+Limit: Does not recover true first availability or complete revision history.
+
+M03 | p39–40 | CHECKED_SYNTHETIC
+Observed-rise threshold; unknown remains unknown; terminal and continuous observation
+Code: mimic state_for; eicu case_state
+Limit: Operational laboratory states, not clinical AKI or RRT-negative eligibility.
+
+M04 | p42–43 | CHECKED_SYNTHETIC
+A changes only early storage deadline with fixed future evidence
+Code: reference_selection availability_limit; grouped relax_saved_cutoff
+Limit: Source population and eligibility held upstream; no cohort reselection is implemented here.
+
+M05 | p45–46 | CHECKED_SYNTHETIC
+B fixed specimen/item or source-specific collection-time proxy; opportunity differs from comparability
+Code: comparison_two; compare_versions
+Limit: No independent specimen identity is inferred in eICU; no full history claim.
+
+M06 | p48–49 | CHECKED_SYNTHETIC
+Separate C controls; death and event invariance; no future sample stays indeterminate
+Code: state_for remove flags; compare_observation single_requirement_removal
+Limit: MIMIC malformed-death eligibility requires the upstream episode contract; the subset does not establish that contract.
+
+M07 | p28–31 | OUTSIDE_REVIEW_SUBSET
+First adult ICU, exact adjacency, no replacement, source eligibility
+Code: Retained only in restricted extraction/episode pipeline
+Limit: No new extraction or independent identification validation performed.
+
+M08 | p51–53 | OUTSIDE_REVIEW_SUBSET
+Paired denominators, strata, hospital descriptions, finite frame and limitations
+Code: Retained in restricted production analyses and manuscript
+Limit: No observed aggregate outputs shipped; no inference, confidence intervals or model evaluation added.

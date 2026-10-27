@@ -1,0 +1,27 @@
+{
+  "cff-version": "1.2.0",
+  "message": "If you use this source-review companion, cite the corresponding archived software version when available.",
+  "title": "Creatinine ascertainment source review companion",
+  "type": "software",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "family-names": "Liu",
+      "given-names": "Yi",
+      "affiliation": "The First Affiliated Hospital of Yangtze University"
+    },
+    {
+      "family-names": "Sun",
+      "given-names": "Qian",
+      "affiliation": "The First Affiliated Hospital of Yangtze University"
+    }
+  ],
+  "license": "MIT",
+  "abstract": "Source inspection subset for paired audits of creatinine ascertainment rules, with wholly invented inputs and documented coverage limitations. It is not an end-to-end clinical reproduction package.",
+  "keywords": [
+    "electronic health records",
+    "outcome ascertainment",
+    "data quality",
+    "synthetic tests"
+  ]
+}

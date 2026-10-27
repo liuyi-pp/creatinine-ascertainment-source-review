@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tested_python": "3.12.14",
+  "entrypoints": {
+    "run_synthetic.py": true,
+    "run_example.py": true,
+    "check_methods_consistency.py": true,
+    "check_review_guard.py": true
+  },
+  "inputs": "Bundled wholly invented fixtures only",
+  "observed_study_results_included": false,
+  "patient_records_used": false,
+  "independent_clinical_validation": false,
+  "end_to_end_reproduction": false,
+  "release_status": "LOCAL_CANDIDATE_NOT_PUBLISHED"
+}

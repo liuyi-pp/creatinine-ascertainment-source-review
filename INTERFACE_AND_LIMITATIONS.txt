@@ -1,0 +1,9 @@
+Interface and coverage limitations
+
+The demonstration entry points read only bundled invented fixtures and do not accept clinical data inputs. Modules expect normalized records prepared upstream. In MIMIC, fake_record creates synthetic collection/storage times, specimen/item grouping, values and validity flags. In eICU, fixture_row and fixture_plan create common-axis collection/revision offsets, uncertainty flags, observation endpoints and death information. They do not infer source-unit attribution, original zero-offset uncertainty, identity or chronology from raw CSV rows.
+
+The subset checks early reference selection, storage-limit removal, fixed-object or proxy comparability and separate removal of terminal-retesting or continuity requirements. Unknown is not recoded as a negative. Comparison opportunities and comparable pairs have different denominators. Separate observation-rule removals are not additive.
+
+Not covered: source extraction, first-ICU selection, adjacent-chain construction, source linkage, complete version history, cache construction, clinical adjudication, RRT-negative eligibility, strata, hospital summaries, manuscript tables and figures, or complete historical environment locking. Retained reason labels containing prespecified describe frozen implementation labels and do not establish prospective choice. Collection-time proxies do not establish specimen identity. Clinical inputs and source-data execution must remain in an authorized restricted environment.
+
+No new source-data adapters or end-to-end clinical reproduction are supplied with this candidate. Check METHODS_CODE_MAP.txt for behavior-specific coverage. Imported modules can bypass entry-point guards; the guards are additional checks, not a sandbox.

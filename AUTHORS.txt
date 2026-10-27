@@ -1,0 +1,9 @@
+Software creators, in confirmed order
+
+Yi Liu
+Qian Sun
+
+Copyright (c) 2026 Yi Liu and Qian Sun
+Original project code is provided under the MIT licence in LICENSE.
+These are software attributions confirmed for this companion; they do not replace the manuscript author list.
+No ORCID or private contact details are supplied.
