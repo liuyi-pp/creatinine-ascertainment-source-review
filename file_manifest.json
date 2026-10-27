@@ -21,7 +21,7 @@
   },
   {
     "file": "CITATION.cff",
-    "sha256": "ac23b9b993b000221fc831bac9798213161b36d28e75b846fec4f26a290a2122"
+    "sha256": "e35144c00bfc3603ea48c893f7f4d7b6cdfac1b6399829df5d9c61eec6c86609"
   },
   {
     "file": "engines/__init__.py",
@@ -61,7 +61,7 @@
   },
   {
     "file": "README.txt",
-    "sha256": "558b7494bee8be0436673876555a0437192c6d8fb0597d31ec9833a9c45e7d08"
+    "sha256": "a137e7c7dfec0c4e8709711d8f9ec4f45e1c87a625afdc73effdc5ef42bb4541"
   },
   {
     "file": "requirements.txt",
@@ -89,7 +89,7 @@
   },
   {
     "file": "validation_summary.json",
-    "sha256": "2ef032803a3362b4d4a071050aad1e2a35aab8c97084e401ebfe4693de5e8d8d"
+    "sha256": "6d80fbedee9251aec7407993514210db9d084412d206da7ae148b26635949bb6"
   },
   {
     "file": "VERSION",

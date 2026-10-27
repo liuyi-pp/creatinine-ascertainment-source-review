@@ -12,5 +12,6 @@
   "patient_records_used": false,
   "independent_clinical_validation": false,
   "end_to_end_reproduction": false,
-  "release_status": "LOCAL_CANDIDATE_NOT_PUBLISHED"
+  "release_status": "PRIVATE_REPOSITORY_AND_UNPUBLISHED_DRAFTS",
+  "documentation_revision": "2026-10-27; documentation and metadata only; retained prior synthetic test evidence; no new clinical validation"
 }
